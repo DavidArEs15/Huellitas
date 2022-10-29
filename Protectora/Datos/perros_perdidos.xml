@@ -1,0 +1,9 @@
+<Perros>
+
+	<Perro NombreP="Nemo" SexoP="F" Raza="Shiba inu" Color="Naranja y blanco" Pelo="Corto" Collar="true" ColorCollar="Negro" FechaPerdida="24/10/2021"  
+            ZonaPerdida="Plaza San Francisco, Ciudad Real" NombreDueño="Will" ApellidosDueño="Smith" EmailDueño="willS@gmail.com" DNIDueño ="55621934L"
+			DomicilioDueño ="Ciudad Real, C/ Lorca 24" TelefonoDueño="642989575" Enlaces="https://upload.wikimedia.org/wikipedia/commons/5/58/Shiba_inu_taiki.jpg"/> 
+	<Perro NombreP="Rash" SexoP="M" Raza="Indefinido" Color="Marrón y negro" Pelo="Corto" Collar="false" ColorCollar="-" FechaPerdida="24/10/2021"  
+            ZonaPerdida="Calle Mercado, Desembarco del Rey" NombreDueño="Emilia" ApellidosDueño="Clarke" EmailDueño="emiliaC@hotmail.com" DNIDueño ="78413994D"
+			DomicilioDueño ="Rey, C/ Snow 35" TelefonoDueño="629239655" Enlaces="https://www.dogalize.com/wp-content/uploads/2017/03/cane-meticcio.jpg"/>
+</Perros>

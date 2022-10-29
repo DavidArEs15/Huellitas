@@ -1,0 +1,16 @@
+<Voluntarios>
+	<Voluntario Nombre="Harry" Apellidos="Styles" Email="oneDirectionForever@gmail.com" DNI ="04392184M"
+            Telefono ="483021748" Horario="8:00 - 14:00" Zona="c/Esperanza" ConVeterinarios="true" URL_imagen="https://variety.com/wp-content/uploads/2020/12/Harry-Styles-Variety-Hitmakers-5-16x9-1.jpg"/>
+	<Voluntario Nombre="Lady" Apellidos="Gaga" Email="inAbadRomance@gmail.com" DNI ="32419047S"
+            Telefono ="864023718" Horario="11:00 - 15:00" Zona="c/Argentina" ConVeterinarios="false" URL_imagen="https://www.minutoneuquen.com/u/fotografias/m/2020/2/6/f1280x720-205192_336867_5050.jpg"/>
+	<Voluntario Nombre="Taylor" Apellidos="Swift" Email="hatersGonnaHate@gmail.com" DNI ="92835012T"
+            Telefono ="730498813" Horario="16:00 - 21:00" Zona="c/Italia" ConVeterinarios="true" URL_imagen="https://www.mondosonoro.com/wp-content/uploads/2015/03/taylor-swift.jpg"/>
+	<Voluntario Nombre="Damiano" Apellidos="David" Email="fearForNobody@gmail.com" DNI ="26392218P"
+            Telefono ="293042134" Horario="8:00 - 13:00" Zona="c/Alemania" ConVeterinarios="true" URL_imagen="https://www.clarin.com/img/2021/05/23/damiano-david-el-nuevo-idolo___S8HkkX4id_640x361__1.jpg"/>
+	<Voluntario Nombre="Rosalia" Apellidos="Puchito" Email="malamenteTraTra@gmail.com" DNI ="36271037Y"
+            Telefono ="843569011" Horario="15:00 - 20:00" Zona="c/Melilla" ConVeterinarios="false" URL_imagen="https://staticprd.minuto30.com/wp-content/uploads/2019/11/le-robaron-la-casa-a-rosalia-01.11.19.png"/>
+	<Voluntario Nombre="Bad" Apellidos="Gyal" Email="yoSoloTeBailoAti@gmail.com" DNI ="39028174Q"
+            Telefono ="840328719" Horario="10:00 - 14:00" Zona="c/Tetuan" ConVeterinarios="true" URL_imagen="https://shangay.com/wp-content/uploads/2019/10/PORTADA_-WEB-BAD-GYAL.jpg"/>
+	<Voluntario Nombre="Billie" Apellidos="Eilish" Email="imTheBadGuyDah@gmail.com" DNI ="12654329C"
+            Telefono ="203475823" Horario="16:00 - 22:00" Zona="c/Neptuno" ConVeterinarios="false" URL_imagen="https://static.dw.com/image/52315108_101.jpg"/>
+</Voluntarios>

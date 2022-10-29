@@ -1,0 +1,161 @@
+﻿<AyudaInfo>
+	<Ayuda NombreVentana="InfoApadrinadoW" Info="
+		   En esta ventana nos encontramos con la información de los apadrinamientos de los perros.
+		   
+		   Para poder modificar algún campo de la información simplemente sitúese en el rectágulo blanco del campo que desea cambiar y haga click, una vez hecho esto 
+		   borre la información que haya y escriba la nueva. 
+		   
+		   Para vaciar todos los campos simplemente sitúese encima del botón de limpiar campos y púlselo, de esta forma toda la información será borrada y se podrá 
+		   escribir la nueva. 
+		   
+		   Por último, si desea volver a la ventana anterior solo tiene que colocarse encima de la flecha negra de la esquina inferior derecha y pulsar o hacer click en
+		   el botón de la esquina superior derecha donde hay una cruz y la ventana se cerrará automáticamente."/>
+	
+	<Ayuda NombreVentana="MainWindow" Info="
+		   En esta ventana se pide que introduzca sus credenciales para poder entrar en la aplicación. 
+		   
+		   Si desea introducir su usuario debe hacer click en el rectángulo blanco que se encuentra debajo de la palabra usuario, una vez hecho esto escriba su usuario, 
+		   la aplicación indicará si el usuario es correcto o no. 
+		   
+		   Para poder escribir su contraseña primero debe haber inroducido anteriormente su usuario correctamente y haber pulsado la tecla Enter, una vez hecho esto podrá 
+		   comenzar a escribir su contraseña y, al igual que con el usuario, la aplicación le indicará si la contraseña es correcta o no. 
+		   
+		   Si ha realizado los pasos anteriores de forma correcta podrá acceder a la aplicación haciendo click en el botón Iniciar Sesión que se encuantra justo debajo del 
+		   campo de la contraseña. 
+		   
+		   Si desea cambiar el idioma de la aplicación debe hacer click en el desplegable de la esquina superior izquierda y pulse encima del idioma que quiera, esto debe 
+		   hacerlo antes de iniciar sesión en la aplicación.
+		   
+		   Por último, si lo que quiere es salir de la aplicación debe hacer click en el botón de la esquina superior derecha donde hay una cruz y la aplicación se cerrará 
+		   automáticamente."/>
+	
+	<Ayuda NombreVentana="Menu" Info="
+		   En esta ventana se nos muestra la información del usuario en la parte izquierda y se nos muestra el menú principal de la aplicación. 
+		   
+		   Si desea conocer la información y gestión de los socios debe situarse en el botón Gestión de Socios y  pulsarlo, al hacer esto se abrirá la ventana con la información 
+		   de los socios. 
+		   
+		   Por otra parte, si lo que quiere es acceder a la información de los perros lo que debe hacer es situarse en el botón de Gestión de perros y hacer click, con esto 
+		   conseguirá abrir la ventana en la cual se ncuantra yoda la información relacionada con los perros de la  protectora. 
+		   
+		   En cambio si lo que pretende es abrir la información de los voluntarios lo único que tiene que hacer es situar el cursor justo en encima del botón Gestión de voluntacios 
+		   y pulsarlo, una vez hecho esto aparecerá en la pantalla una ventana con toda la información de los voluntarios. 
+		   
+		   Sin embargo, si lo que desea hacer es ver la información de los perros perdidos de la protectora simplemente tendrá que pulsar encima del botón Avisos Perros Perdidos 
+		   y así se abrirá la ventana en la que podrá encontrar esta información. 
+		   
+		   Si desea volver a la ventana anterior solo tiene que colocarse encima de la flecha negra de la esquina inferior derecha y pulsar. 
+		   
+		   Por último, si lo que quiere es salir de la aplicación debe hacer click en el botón de la esquina superior derecha donde hay una cruz y la aplicación se cerrará 
+		   automáticamente."/>
+
+	
+	<Ayuda NombreVentana="Perdidos" Info="
+		   En esta ventana se nos muestra la información de los perros perdidos. 
+		   
+		   Para poder ver la información de cada perro deberá ir pulsando el nombre del perro del que quiere ver la información en la lista que se muestra a la 
+		   izquierda. 
+		   
+		   Si desea modificar algún campo de texto simplemente sitúese en el rectángulo blanco del campo en el que desea realizar algún cambio y haga click, una vez 
+		   hecho esto solo tiene que borrar la información que contiene y escribir la nueva. 
+		   
+		   En cambio, si lo que quiere es indicar si el perro llevaba collar o no lo único que tendrá que hacer es pulsar el checkBox situado al lado de 'Lleva Collar', 
+		   si aparece un check está indicando que el perro llevaba collar automáticamente la aplicación le permitirá introducir la información del color del collar que 
+		   llevaba el perro, pero si por el contrario, el cadrado aparece vacío se está indicando que el perro no poseía ningún collar. 
+		   
+		   Por otra parte si desea modificar la fecha en la que se perdió el perro lo que debe hacer es pulsar en el calendario situado debajo del campo de texto de la 
+		   información del color del collar del perro y se abrirá el calendario en el que simplemente tendrá que pulsar en el día en el que se perodió el perro. 
+		   
+		   Para eliminar a un perro de la lista lo único que tendrá que hacer es seleccionar el perro que desea eliminar y pulsar el botón rojo situado justo 
+		   debajo de la lista. 
+		   
+		   Sin embargo, si lo que quiere hacer es añadir un perro a la lista lo que deberá hacer es darle al botón de limpiar campos para que desaparezca toda la 
+		   información que se está mostrando es ese momento e ir añadiendo la nueva información y una vez haya terminado debe pulsar el botón verde situado debajo 
+		   de la lista y, de este modo, se abrirá una ventana para que seleccione una foto del perro, una vez haya seleccionado la imagen ya aparecerá el nuevo perro en la 
+		   lista. 
+		   
+		   Si desea volver a la ventana anterior solo tiene que colocarse encima de la flecha negra de la esquina inferior derecha y pulsar. 
+		   
+		   Por último, si lo que quiere es salir de la aplicación debe hacer click en el botón de la esquina superior derecha donde hay una cruz y la aplicación se 
+		   cerrará automáticamente."/>
+	
+	<Ayuda NombreVentana="PerrosW" Info="
+		   En esta ventana aparece la información de los perros de la protectora. 
+		   
+		   Para poder ver la información de cada perro deberá ir pulsando el nombre del perro del que quiere ver la información en la lista que se muestra a la izquierda. 
+		   
+		   Si desea modificar algún campo de texto simplemente sitúese en el rectángulo blanco del campo en el que desea realizar algún cambio y haga click, una vez hecho esto 
+		   solo tiene que borrar la información que contiene y escribir la nueva. 
+		   
+		   En cambio, si lo que quiere es indicar si el perro tiene chip, es un cachorro, es PPP, está vacunado o si está esterilizado lo único que tendrá que hacer es 
+		   pulsar el checkBox correspondiente, si aparece un check está indicando que la que el perro si tiene ese atributo, pero si por el contrario el cadrado aparece 
+		   vacío se está indicando lo contrario. 
+		   
+		   Por otra parte si desea modificar la fecha en la que entró el perro lo que debe hacer es pulsar en el calendario situado debajo del campo de texto de la 
+		   información de la edad del perro y se abrirá el calendario en el que simplemente tendrá que pulsar en el día en el que entró el perro. 
+		   
+		   Para indicar si el perro está apadrinado o no simplemente deberá hacer lo mismo que si quiere indicar que el perro está vacunado, al señalar que el perro está 
+		   apadrinado se mostrará un campo de texto en el que aparecerá el padrino y, a su vez, se activará el botón Información del apadrinamiento, el cual, al pulsarlo, 
+		   abrirá una ventana en la que aparecerán los datos del apadrinamiento. 
+		   
+		   Para eliminar a un perro de la lista lo único que tendrá que hacer es seleccionar el perro que desea eliminar y pulsar el botón rojo situado justo debajo de la 
+		   lista. 
+		   
+		   Sin embargo, si lo que quiere hacer es añadir un perro a la lista lo que deberá hacer es darle al botón de limpiar campos para que desaparezca toda la 
+		   información que se está mostrando es ese momento e ir añadiendo la nueva información y una vez haya terminado debe pulsar el botón verde situado debajo 
+		   de la lista y, de este modo, se abrirá una ventana para que seleccione una foto del perro, una vez haya seleccionado la imagen ya aparecerá el nuevo perro en la 
+		   lista. 
+		   
+		   Si desea volver a la ventana anterior solo tiene que colocarse encima de la flecha negra de la esquina inferior derecha y pulsar. 
+		   
+		   Por último, si lo que quiere es salir de la aplicación debe hacer click en el botón de la esquina superior derecha donde hay una cruz y la aplicación se 
+		   cerrará automáticamente."/>
+	
+	<Ayuda NombreVentana="SociosW" Info="
+		   En esta ventana se nos muestra la información de los socios de la protectora. 
+		   
+		   Para poder ver la información de cada socio deberá ir pulsando el nombre del socio del que quiere ver la información en la lista que se muestra a la 
+		   izquierda. 
+		   
+		   Si desea modificar algún campo de texto simplemente sitúese en el rectángulo blanco del campo en el que desea realizar algún cambio y haga click, una vez 
+		   hecho esto solo tiene que borrar la información que contiene y escribir la nueva. 
+		   
+		   Por otra parte si lo que quiere es eliminar a un socio de la lista lo único que tendrá que hacer es seleccionar el socio que desea eliminar y pulsar el botón 
+		   rojo situado justo debajo de la lista. 
+		   
+		   Sin embargo, si lo que quiere hacer es añadir un perro a la lista lo que deberá hacer es darle al botón de limpiar campos para que desaparezca toda la información 
+		   que se está mostrando es ese momento e ir añadiendo la nueva información y una vez haya terminado debe pulsar el botón verde situado debajo de la lista y, de este 
+		   modo, se abrirá una ventana para que seleccione una foto del socio, una vez haya seleccionado la imagen ya aparecerá el nuevo socio en la lista. 
+		   
+		   Si desea volver a la ventana anterior solo tiene que colocarse encima de la flecha negra de la esquina inferior derecha y pulsar. 
+		   
+		   Por último, si lo que quiere es salir de la aplicación debe hacer click en el botón de la esquina superior derecha donde hay una cruz y la aplicación se 
+		   cerrará automáticamente."/>
+	
+	<Ayuda NombreVentana="VoluntariosW" Info="
+		   En esta ventana se nos muestra la información de los voluntarios. 
+		   
+		   Para poder ver la información de cada voluntario deberá ir pulsando el nombre del voluntario del que quiere ver la información en la lista que se 
+		   muestra a la izquierda. 
+		   
+		   Si desea modificar algún campo de texto simplemente sitúese en el rectángulo blanco del campo en el que desea realizar algún cambio y haga click, una vez 
+		   hecho esto solo tiene que borrar la información que contiene y escribir la nueva. 
+		   
+		   En cambio, si lo que quiere es indicar si el voluntario tiene conocimientos veterinarios o no lo único que tendrá que hacer es pulsar el checkBox situado 
+		   al lado de 'Conocimientos Veterinarios', si aparece un check está indicando que el voluntario si tiene conocimientos veterinarios, pero si por el contrario el 
+		   cadrado aparece vacío se está indicando que el veterinario no posee ningún conocimiento veterianrio. 
+		   
+		   Por otra parte, si lo que desea es eliminar a un voluntario de la lista lo único que tendrá que hacer es seleccionar el voluntario que desea eliminar y 
+		   pulsar el botón rojo situado justo debajo de la lista. 
+		   
+		   Sin embargo, si lo que quiere hacer es añadir un veterinario a la lista lo que deberá hacer es darle al botón de limpiar campos para que desaparezca toda la 
+		   información que se está mostrando es ese momento e ir añadiendo la nueva información y una vez haya terminado debe pulsar el botón verde situado debajo de 
+		   la lista y, de este modo, se abrirá una ventana para que seleccione una foto del veterinario, una vez haya seleccionado la imagen ya aparecerá el nuevo voluntario 
+		   en la lista. 
+		   
+		   Si desea volver a la ventana anterior solo tiene que colocarse encima de la flecha negra de la esquina inferior derecha y pulsar. 
+		   
+		   Por último, si lo que quiere es salir de la aplicación debe hacer click en el botón de la esquina superior derecha donde hay una cruz y la aplicación se 
+		   cerrará automáticamente."/>
+
+</AyudaInfo>

@@ -1,0 +1,133 @@
+﻿<Window x:Name="Menu1" x:Class="Eventos.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Eventos"
+        mc:Ignorable="d"
+        Title="Menu" ResizeMode="CanMinimize" Closing="Menu1_Closing" Icon="imagenes/iconpuppie.png" WindowState="Maximized" VerticalContentAlignment="Stretch" Height="519.852" Width="1185.042" Background="#FFF5E7D6">
+    <Grid Margin="0,0,-6,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="61*"/>
+            <RowDefinition Height="44*"/>
+            <RowDefinition Height="13*"/>
+            <RowDefinition Height="64*"/>
+            <RowDefinition Height="67*"/>
+            <RowDefinition Height="49*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="66*"/>
+            <RowDefinition Height="63*"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="155*"/>
+            <ColumnDefinition Width="108*"/>
+            <ColumnDefinition Width="227*"/>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="38*"/>
+            <ColumnDefinition Width="195*"/>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="216*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="208*"/>
+            <ColumnDefinition Width="9*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Button x:Name="btnAvisosPerdidos" Content="{DynamicResource btnAvisosPerdidos}" VerticalAlignment="Top" Margin="0,26,0,0" Height="48" ToolTip="Pulse para obtener información acerca de los avisos por perros perdidos" FontFamily="Segoe UI Black" FontSize="15" Click="btnAvisosPerdidos_Click" Grid.Column="9" Grid.Row="7" Grid.RowSpan="2" Cursor="Hand">
+            <Button.Background>
+                <ImageBrush ImageSource="imagenes/fondohuellasbeis.PNG"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnGestionS" Content="{DynamicResource btnGestionS}" VerticalAlignment="Top" Margin="1,26,2,0" Height="48" ToolTip="Pulse para gestionar los socios de la protectora" FontFamily="Segoe UI Black" FontSize="15" Click="btnGestionS_Click" Grid.Column="2" Grid.Row="7" Grid.RowSpan="2" Cursor="Hand">
+            <Button.Background>
+                <ImageBrush ImageSource="imagenes/fondohuellasbeis.PNG"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnGestionP" Content="{DynamicResource btnGestionP}" VerticalAlignment="Top" Margin="0,26,0,0" Height="48" ContentStringFormat="" ToolTip="Pulse para gestionar los perros de la protectora" FontFamily="Segoe UI Black" FontSize="15" Click="btnGestionP_Click" Grid.Column="4" Grid.Row="7" Grid.RowSpan="2" Cursor="Hand" Grid.ColumnSpan="2">
+            <Button.Background>
+                <ImageBrush ImageSource="imagenes/fondohuellasbeis.PNG"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnGestionV" Content="{DynamicResource btnGestionV}" VerticalAlignment="Top" Margin="0,26,0,0" Height="48" ToolTip="Pulse para gestionar los voluntarios de la protectora" FontFamily="Segoe UI Black" FontSize="15" Click="btnGestionV_Click" Grid.Column="7" Grid.Row="7" Grid.RowSpan="2" Cursor="Hand">
+            <Button.Background>
+                <ImageBrush ImageSource="imagenes/fondohuellasbeis.PNG"/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Left" Margin="1,1,0,0" VerticalAlignment="Center" Source="imagenes/fondocachorro.jpg" Grid.ColumnSpan="3" Grid.Column="7" Grid.RowSpan="5" Height="249" Width="374" Grid.Row="2"/>
+        <Label x:Name="lblMenu" Content="{DynamicResource lblMenu}" Margin="205,58,39,6" ClipToBounds="True" FontFamily="Berlin Sans FB" FontSize="40" Grid.Column="2" Grid.ColumnSpan="6" Grid.RowSpan="3" VerticalAlignment="Center"/>
+        <Button x:Name="btnAtras" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="55" Margin="143,13,0,0" Height="32" ToolTip="Pulse para volver a la pantalla de Login" FontFamily="Segoe UI Black" FontSize="15" BorderBrush="{x:Null}" Click="btnAtras_Click" Grid.Column="9" Grid.Row="8" Cursor="Hand">
+            <Button.Background>
+                <ImageBrush ImageSource="imagenes/iconoatras.png"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="lblNombreUsuario" Content="Nombre" HorizontalAlignment="Left" Margin="10,7,0,24" Width="301" FontFamily="Segoe UI Emoji" FontSize="15" Grid.ColumnSpan="3" HorizontalContentAlignment="Center" Grid.Row="3"/>
+        <Label x:Name="lblApellidosUsuario" Content="Apellidos" Margin="10,10,0,0" Width="301" FontFamily="Segoe UI Emoji" FontSize="15" Grid.ColumnSpan="3" HorizontalContentAlignment="Center" Grid.Row="4" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Label x:Name="lblDniusuario" Content="DNI" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="301" FontFamily="Segoe UI Emoji" FontSize="15" Grid.ColumnSpan="3" HorizontalContentAlignment="Center" Grid.Row="5"/>
+        <Label x:Name="lblEmailusuario" Content="Email" HorizontalAlignment="Left" Margin="9,7,0,0" VerticalAlignment="Top" Width="302" FontFamily="Segoe UI Emoji" FontSize="15" Grid.ColumnSpan="3" HorizontalContentAlignment="Center" Grid.Row="6"/>
+        <Label x:Name="lblFechaUltimoAcceso" Content="Último acceso" HorizontalAlignment="Left" Margin="9,5,0,0" VerticalAlignment="Top" Width="301" FontFamily="Segoe UI Emoji" FontSize="15" Grid.ColumnSpan="3" HorizontalContentAlignment="Center" Grid.Row="8"/>
+        <Label x:Name="lblFechaNacUsuario" Content="Fecha Nacimiento" HorizontalAlignment="Left" Margin="0,6,0,0" VerticalAlignment="Top" Width="322" FontFamily="Segoe UI Emoji" FontSize="15" Grid.ColumnSpan="3" HorizontalContentAlignment="Center" Grid.Row="7"/>
+        <Label x:Name="lbl_opcionmenu" Content="{DynamicResource lbl_opcionmenu}" HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Emoji" FontSize="20" Grid.Column="2" Grid.Row="4" FontWeight="Bold" Grid.ColumnSpan="4"/>
+        <Button Content="" Grid.Column="9" HorizontalAlignment="Left" Margin="143,26,-8,0" VerticalAlignment="Top" Width="82" Height="46" ToolTip="Pulse para obtener ayuda" BorderBrush="{x:Null}" Click="Ayuda_Click" Cursor="Hand" Grid.RowSpan="2" Grid.ColumnSpan="2">
+            <Button.Background>
+                <ImageBrush ImageSource="imagenes/help.png"/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="80" Margin="122,38,0,0" VerticalAlignment="Center" Width="86" Source="imagenes/User.png" Grid.ColumnSpan="2" Grid.RowSpan="3"/>
+        <Button x:Name="btnAumentar" Content="" Grid.Column="9" HorizontalAlignment="Left" Margin="71,25,0,0" VerticalAlignment="Top" Width="59" Height="38" Cursor="Hand" ToolTip="Pulse para aumentar el tamaño de la letra" Click="btnAumentar_Click" Grid.RowSpan="2">
+            <Button.Background>
+                <ImageBrush ImageSource="imagenes/aumentarFuente.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnReducir" Content="" Grid.Column="9" HorizontalAlignment="Left" Margin="84,10,0,0" VerticalAlignment="Top" Width="59" Height="53" Cursor="Hand" ToolTip="Pulse para reestablecer el tamaño de la letra a normal" Click="btnReducir_Click" Visibility="Hidden" Grid.RowSpan="2">
+            <Button.Background>
+                <ImageBrush ImageSource="imagenes/reducirFuente.png"/>
+            </Button.Background>
+        </Button>
+        <Image x:Name="imagenVolPerro" Source="imagenes/perroMov.png" Margin="180,29,0,10" HorizontalAlignment="Left" Width="161" Grid.Column="2" Grid.RowSpan="3" Grid.ColumnSpan="4" Grid.Row="4"/>
+        <Image x:Name="imagenVolPerro_Copy" Source="imagenes/collarPerro.png" Margin="56,46,0,0" HorizontalAlignment="Left" Width="76" Grid.Column="2" Grid.RowSpan="3"/>
+        <Image x:Name="imagenVolPerro_Copy1" Source="imagenes/collarPerro.png" Margin="41,46,0,0" HorizontalAlignment="Left" Width="76" Grid.Column="7" Grid.RowSpan="3"/>
+        <Image x:Name="imagenVolPerro_Copy2" Source="imagenes/huesoBlanco.png" Margin="26,23,0,36" HorizontalAlignment="Left" Width="61" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-44.981"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="imagenVolPerro_Copy3" Source="imagenes/huesoBlanco.png" Margin="20,4,0,13" HorizontalAlignment="Left" Width="61" RenderTransformOrigin="0.5,0.5" Grid.Row="8">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="29.494"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="imagenVolPerro_Copy4" Source="imagenes/huesoBlanco.png" Margin="71,27,0,32" HorizontalAlignment="Left" Width="61" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="2">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="25.705"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="imagenVolPerro_Copy5" Source="imagenes/huesoBlanco.png" Margin="71,6,0,11" HorizontalAlignment="Left" Width="61" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Grid.Row="8" Grid.ColumnSpan="2">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-53.895"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+
+    </Grid>
+</Window>

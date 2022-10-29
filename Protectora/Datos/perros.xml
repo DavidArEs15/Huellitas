@@ -1,0 +1,42 @@
+<Perros>
+	<Perro NombreP="Wifredo" SexoP="M" Raza="Labrador" Tamanyo="mediano" 
+            Peso ="45" EdadP="5" Entrada="25/11/2021" 
+            Chip="true" Cachorro="false" PPP="false" Vacunado="true" Esterilizado="true" 
+            Enfermedades="Artrosis" Tratamientos="No" Enlaces="https://static8.depositphotos.com/1146155/1016/i/600/depositphotos_10165271-stock-photo-yellow-labrador-retriever.jpg" Descripcion="Blanco" Caracteristicas="Sociable con otros perros y niños"
+            Estado="Bueno" Apadrinado="true" NombrePadrino="Rubén Escribano"/>
+	<Perro NombreP="Torcuato" SexoP="M" Raza="Mastin" Tamanyo="grande" 
+            Peso ="80" EdadP="4" Entrada="21/11/2021" 
+            Chip="true" Cachorro="false" PPP="false" Vacunado="false" Esterilizado="true" 
+            Enfermedades="No" Tratamientos="No" Enlaces="https://cdn.wamiz.fr/article/images/ES%20PHOTOS/JULIO%202020/mastin-español-campo.jpg" Descripcion="marrón" Caracteristicas="Sociable con otros perros pero no con niños"
+            Estado="Enfermo" Apadrinado="true" NombrePadrino="Luisa García"/>
+	<Perro NombreP="Manchitas" SexoP="F" Raza="Dalmata" Tamanyo="pequeño" 
+            Peso ="7" EdadP="1" Entrada="12/11/2021" 
+            Chip="true" Cachorro="true" PPP="false" Vacunado="true" Esterilizado="true" 
+            Enfermedades="No" Tratamientos="No" Enlaces="https://www.hola.com/imagenes/estar-bien/20200828174216/razas-perro-dalmata-gt/0-859-148/dalmata-t.jpg" Descripcion="Blanco y negro" Caracteristicas="Manchas"
+            Estado="Bueno" Apadrinado="true" NombrePadrino="Pedro Fernández"/>
+	<Perro NombreP="Rue" SexoP="F" Raza="Galgo" Tamanyo="pequeño" 
+            Peso ="6" EdadP="3" Entrada="13/11/2021" 
+            Chip="false" Cachorro="true" PPP="false" Vacunado="false" Esterilizado="true" 
+            Enfermedades="Leishmaniasis" Tratamientos="Milteforan" Enlaces="https://aperrados.com/wp-content/uploads/2009/01/origenes-del-galgo-italiano-800x445.jpg" Descripcion="Negro" Caracteristicas="Sociable con los niños"
+            Estado="Enferma" Apadrinado="true" NombrePadrino="Moises Carretero"/>
+	<Perro NombreP="Nemo" SexoP="F" Raza="Shiba inu" Tamanyo="mediano" 
+            Peso ="8" EdadP="15" Entrada="24/10/2021" 
+            Chip="false" Cachorro="false" PPP="false" Vacunado="true" Esterilizado="true" 
+            Enfermedades="No" Tratamientos="No" Enlaces="https://upload.wikimedia.org/wikipedia/commons/5/58/Shiba_inu_taiki.jpg" Descripcion="Naranja y blanco" Caracteristicas="No sociable con otros animales"
+            Estado="Perdido" Apadrinado="false" NombrePadrino="-"/>
+	<Perro NombreP="Coco" SexoP="M" Raza="Pastor alemán" Tamanyo="mediano" 
+            Peso ="40" EdadP="2" Entrada="24/11/2021" 
+            Chip="true" Cachorro="false" PPP="true" Vacunado="true" Esterilizado="true" 
+            Enfermedades="Otitis" Tratamientos="Limpieza y secado del conducto auditivo " Enlaces="https://misanimales.com/wp-content/uploads/2021/08/pastor-aleman-corre-640x853.jpg" Descripcion="Marrón y negro" Caracteristicas="Sociable con personas y otros animales"
+            Estado="Fallecido" Apadrinado="false" NombrePadrino="-"/>
+	<Perro NombreP="Nela" SexoP="F" Raza="Indefinido" Tamanyo="pequeño" 
+            Peso ="8" EdadP="12" Entrada="26/10/2021" 
+            Chip="true" Cachorro="false" PPP="false" Vacunado="true" Esterilizado="false" 
+            Enfermedades="No" Tratamientos="No" Enlaces="https://mk0perretesclub4iil8.kinstacdn.com/wp-content/uploads/perro-mixto-chiweenie.jpg" Descripcion="Marrón" Caracteristicas="No es sociable con otros animales"
+            Estado="Enferma" Apadrinado="true" NombrePadrino="Iago Normando"/>
+	<Perro NombreP="Rash" SexoP="M" Raza="Indefinido" Tamanyo="pequeño" 
+            Peso ="8" EdadP="15" Entrada="24/10/2021" 
+            Chip="false" Cachorro="false" PPP="false" Vacunado="false" Esterilizado="false" 
+            Enfermedades="No" Tratamientos="No" Enlaces="https://www.dogalize.com/wp-content/uploads/2017/03/cane-meticcio.jpg" Descripcion="Marrón y negro" Caracteristicas="Sociable con otros animales"
+            Estado="Perdido" Apadrinado="false" NombrePadrino="-"/>
+</Perros>

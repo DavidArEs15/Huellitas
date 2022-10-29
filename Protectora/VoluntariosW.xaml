@@ -1,0 +1,263 @@
+﻿<Window x:Class="Eventos.VoluntariosW"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Eventos"
+        mc:Ignorable="d"
+        Title="VoluntariosW" ResizeMode="CanMinimize" Closing="Window_Closing" Icon="imagenes/iconpuppie.png" WindowState="Maximized" Width="1026.488" Height="552.645" Background="#FF9BF986">
+    <Window.Resources>
+        <ControlTemplate x:Key="plantillaFeedbackError">
+            <Border BorderBrush="Red" BorderThickness="2" >
+                <AdornedElementPlaceholder>
+                    <TextBlock Text="{Binding [0].ErrorContent}"
+                Foreground="Red"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                Margin="0,0,3,3"
+                FontSize="7"/>
+                </AdornedElementPlaceholder>
+            </Border>
+        </ControlTemplate>
+    </Window.Resources>
+    <Grid Margin="0,0,-6.4,-20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="89*"/>
+            <ColumnDefinition Width="298*"/>
+            <ColumnDefinition Width="128*"/>
+            <ColumnDefinition Width="99*"/>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="194*"/>
+            <ColumnDefinition Width="104*"/>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="6*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="13*"/>
+            <RowDefinition Height="24*"/>
+            <RowDefinition Height="36*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="31*"/>
+            <RowDefinition Height="34*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="32*"/>
+            <RowDefinition Height="36*"/>
+            <RowDefinition Height="36*"/>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="32*"/>
+            <RowDefinition Height="42*"/>
+            <RowDefinition Height="31*"/>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="42*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
+        <Image x:Name="imagenVolPerro" HorizontalAlignment="Left" Width="372" Source="imagenes/VoluntarioConPerro.png" Grid.Column="4" Grid.RowSpan="8" Grid.Row="4" Grid.ColumnSpan="5" Margin="40,23,0,14" Opacity="0.17"/>
+        <Image HorizontalAlignment="Left" Height="66" Margin="212,21,0,0" VerticalAlignment="Top" Width="81" Source="imagenes/huesoNegro.png" Grid.RowSpan="3" RenderTransformOrigin="0.5,0.5" Opacity="0.3" Grid.Column="1" Grid.Row="13">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="11.476"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="66" Margin="35,25,0,0" VerticalAlignment="Top" Width="81" Source="imagenes/huesoNegro.png" Grid.RowSpan="3" RenderTransformOrigin="0.5,0.5" Opacity="0.3" Grid.Column="2" Grid.Row="13">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-13.314"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="66" Margin="52,22,0,0" VerticalAlignment="Top" Width="81" Source="imagenes/huesoNegro.png" Grid.RowSpan="3" RenderTransformOrigin="0.5,0.5" Opacity="0.3" Grid.Column="3" Grid.Row="13" Grid.ColumnSpan="2">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="11.476"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="66" Margin="91,19,0,0" VerticalAlignment="Top" Width="81" Source="imagenes/huesoNegro.png" Grid.RowSpan="3" RenderTransformOrigin="0.5,0.5" Opacity="0.3" Grid.Column="4" Grid.Row="13" Grid.ColumnSpan="2">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-13.314"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+        <Image HorizontalAlignment="Left" Height="182" Margin="82,25,0,-28" Width="185" Source="imagenes/huellasPerroNegras4.png" Grid.RowSpan="6" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Opacity="0.3" Grid.Column="5" Grid.Row="11">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="38.014"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+        <Image HorizontalAlignment="Left" Height="182" Margin="21,-33,0,0" VerticalAlignment="Top" Width="185" Source="imagenes/huellasPerroNegras4.png" Grid.RowSpan="5" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" Opacity="0.3">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="38.014"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+        <Button x:Name="btnAñadirV" Content="" HorizontalAlignment="Left" Margin="42.2,9.6,0,0" VerticalAlignment="Top" Height="56" Width="60" BorderBrush="{x:Null}" BorderThickness="2,1,1,2" Click="btnAnadirVoluntario_Click" ToolTip="Pulse para dar de alta a un voluntario" Cursor="Hand" Grid.Row="13" Grid.RowSpan="3" Grid.Column="1">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="imagenes/añadirbueno.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnBorrarV" Content="" HorizontalAlignment="Left" Margin="124.2,9.6,0,0" VerticalAlignment="Top" Height="56" Width="62" BorderBrush="{x:Null}" BorderThickness="2,1,1,2" Click="btnEliminarVoluntario_Click" ToolTip="Pulse para dar de baja al voluntario seleccionado" Cursor="Hand" Grid.Row="13" Grid.RowSpan="3" Grid.Column="1">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="imagenes/eliminar.png"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="lblListaV" Content="Listado de voluntarios:" HorizontalAlignment="Left" FontFamily="Segoe UI Semibold" FontSize="14" Margin="7.2,9.8,0,26.8" Grid.RowSpan="2" Grid.Column="1" Grid.Row="3"/>
+        <ListBox x:Name="LbVoluntarios" HorizontalAlignment="Left" Margin="7.2,0.2,0,0.4" Width="212" ItemsSource="{Binding}" AlternationCount="2" ToolTip="Seleccione un voluntario de la lista" Grid.RowSpan="9" Grid.Row="4" Grid.Column="1">
+
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center"
+                             Margin="10,0,0,0"
+                             Text="{Binding Nombre}"/>
+                        <TextBlock VerticalAlignment="Center"
+                             Margin="10,0,0,0"
+                             Text="{Binding Apellidos}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="{x:Type ListBoxItem}">
+                    <Setter Property="Margin" Value="2"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Foreground" Value="DarkOliveGreen"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                            <Setter Property="BorderBrush" Value="DarkBlue"/>
+                            <Setter Property="BorderThickness" Value="3"/>
+                        </Trigger>
+                        <Trigger Property="ItemsControl.AlternationIndex" Value="1">
+                            <Setter Property="Background" Value="#FFD7F6D7"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ListBox.ItemContainerStyle>
+
+        </ListBox>
+        <Image x:Name="imagenVoluntario" HorizontalAlignment="Right" Source="{Binding SelectedItem.UrlImagen, ElementName=LbVoluntarios}" Grid.RowSpan="7" Grid.Row="4" VerticalAlignment="Center" Width="400" Height="200" Grid.ColumnSpan="3" Margin="0,13.2,30.6,36.4" Grid.Column="1"/>
+        <Label x:Name="lblInfoVoluntario" Content="Información del voluntario:" HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" FontSize="14" Margin="53.4,4.8,57,0" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="4"/>
+        <Label x:Name="lblNombreV" Content="Nombre:" HorizontalAlignment="Left" Margin="11.4,0.2,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Emoji" Grid.Row="4" Grid.Column="4"/>
+        <TextBox x:Name="TbNombreVoluntario" HorizontalAlignment="Left" Margin="12.4,5.2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Text="{Binding SelectedItem.Nombre, ElementName=LbVoluntarios}" TabIndex="1" Grid.Row="4" Grid.Column="5"/>
+        <Label x:Name="lblApellidosV" Content="Apellidos:" HorizontalAlignment="Left" Margin="11.4,2.2,0,0" VerticalAlignment="Top" Grid.Row="5" Grid.Column="4"/>
+        <Label x:Name="lblEmailV" Content="Email:" HorizontalAlignment="Left" Margin="11.4,5,0,0" VerticalAlignment="Top" Grid.Row="6" Grid.Column="4"/>
+        <Label x:Name="lblDniV" Content="DNI:" HorizontalAlignment="Left" Margin="11.4,3,0,0" VerticalAlignment="Top" Grid.Row="7" Grid.Column="4"/>
+        <Label x:Name="lblTelefonoV" Content="Telefono:" HorizontalAlignment="Left" Margin="10.4,16.2,0,0" VerticalAlignment="Top" Grid.Row="8" Grid.Column="4" Grid.RowSpan="2"/>
+        <Label x:Name="lblHorarioV" Content="Horario:" HorizontalAlignment="Left" Margin="11.4,9.6,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.27,0.636" Grid.Row="9" Grid.Column="4"/>
+        <Label x:Name="lblZonaV" Content="Zona:" HorizontalAlignment="Left" Margin="13.4,3,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.118,0.328" Grid.Row="10" Grid.Column="4"/>
+        <TextBox x:Name="TbApellidos" HorizontalAlignment="Left" Margin="12.4,6.2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Text="{Binding SelectedItem.Apellidos, ElementName=LbVoluntarios}" TabIndex="2" Grid.Row="5" Grid.Column="5"/>
+        <TextBox x:Name="tbEmail" HorizontalAlignment="Left" Margin="12.4,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="{Binding SelectedItem.Email, ElementName=LbVoluntarios}" TabIndex="3" Grid.Row="6" Grid.Column="5" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="TbDni" HorizontalAlignment="Left" Margin="12.4,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180"
+                          TabIndex="4" Grid.Column="5" Grid.Row="7" Validation.ErrorTemplate="{StaticResource plantillaFeedbackError}" TextChanged="TbDni_TextChanged">
+
+            <Binding Path="SelectedItem.Dni" ElementName="LbVoluntarios"
+            ValidatesOnDataErrors="True"
+            UpdateSourceTrigger="PropertyChanged">
+                <Binding.ValidationRules>
+                    <local:ReglaLongitud
+            MinimoCaracteres="9"
+            MaximoCaracteres="9"/>
+                </Binding.ValidationRules>
+            </Binding>
+
+
+        </TextBox>
+        <TextBox x:Name="TbTelefono" HorizontalAlignment="Left" Margin="12.4,10.2,0,9.4" TextWrapping="Wrap" VerticalAlignment="Center" Width="180" Text="{Binding SelectedItem.Telefono, ElementName=LbVoluntarios}" TabIndex="5" Grid.Row="8" Grid.Column="5"/>
+        <TextBox x:Name="TbHorario" HorizontalAlignment="Left" Margin="12.4,5.6,0,14" TextWrapping="Wrap" VerticalAlignment="Center" Width="180" Text="{Binding SelectedItem.Horario, ElementName=LbVoluntarios}" TabIndex="6" Grid.Row="9" Grid.Column="5"/>
+        <TextBox x:Name="TbZona" HorizontalAlignment="Left" Margin="12.4,9,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="180" Text="{Binding SelectedItem.Zona, ElementName=LbVoluntarios}" TabIndex="7" Grid.Row="10" Grid.Column="5"/>
+        <CheckBox x:Name="CBconocV" Content="Conocimientos Veterinarios" HorizontalAlignment="Left" Margin="54,10,0,0" VerticalAlignment="Top" IsChecked = "{Binding SelectedItem.ConocimientosVet, ElementName=LbVoluntarios}" ToolTip="Haga click aquí si el voluntario posee conocimientos veterinarios" Grid.Row="11" Grid.Column="4" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnAyuda" Content="" Margin="18,4.4,4,0" VerticalAlignment="Top" Height="46" ToolTip="Pulse para obtener ayuda" BorderBrush="{x:Null}" Click="btnAyuda_Click" Grid.RowSpan="2" Grid.Column="6" HorizontalAlignment="Center" Width="82" Grid.Row="1" Cursor="Hand">
+            <Button.Background>
+                <ImageBrush ImageSource="imagenes/help.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnAtrasV" Content="" VerticalAlignment="Top" Margin="28,9.6,20,0" Height="32" ToolTip="Pulse para ir al Menú Principal" FontFamily="Segoe UI Black" FontSize="15" BorderBrush="{x:Null}" Click="btnAtrasV_Click" Grid.Row="14" Grid.Column="6" HorizontalAlignment="Center" Width="56" Grid.RowSpan="2" Cursor="Hand">
+            <Button.Background>
+                <ImageBrush ImageSource="imagenes/iconoatras.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnLimpiar" Content="Limpiar Campos" HorizontalAlignment="Left" Margin="44.4,17.8,0,0.4" Background="White" BorderThickness="3,1,1,3" BorderBrush="Black" Click="btnLimpiar_Click" ToolTip="Pulse para vaciar los campos de texto y crear un nuevo voluntario" Grid.Row="12" Grid.Column="5" Cursor="Hand"/>
+        <Label x:Name="lbFalloDni" Content="Introduzca un DNI válido" Grid.Column="6" HorizontalAlignment="Left" Height="22" Margin="0,7,0,0" Grid.Row="7" VerticalAlignment="Top" Foreground="#FFAD0000" Width="118" FontSize="8" Grid.ColumnSpan="3" Visibility="Hidden"/>
+        <Button x:Name="btnAumentar" Content="" Grid.Column="5" HorizontalAlignment="Center" Margin="168,11,72,0" Grid.Row="1" VerticalAlignment="Top" Width="58" Grid.RowSpan="2" Height="38" Cursor="Hand" ToolTip="Pulse para aumentar el tamaño de la letra" Click="btnAumentar_Click" Grid.ColumnSpan="2">
+            <Button.Background>
+                <ImageBrush ImageSource="imagenes/aumentarFuente.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnReducir" Content="" Grid.Column="5" HorizontalAlignment="Center" Margin="174,10,65,0" Grid.RowSpan="3" VerticalAlignment="Top" Width="59" Height="53" Grid.ColumnSpan="2" Cursor="Hand" ToolTip="Pulse para reestablecer el tamaño de la letra a normal" Click="btnReducir_Click" Visibility="Hidden">
+            <Button.Background>
+                <ImageBrush ImageSource="imagenes/reducirFuente.png"/>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="66" Margin="214,5,0,0" VerticalAlignment="Top" Width="81" Source="imagenes/huesoNegro.png" Grid.RowSpan="3" RenderTransformOrigin="0.5,0.5" Opacity="0.3" Grid.Column="1" Grid.Row="1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="11.476"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="66" Margin="37,9,0,0" VerticalAlignment="Top" Width="81" Source="imagenes/huesoNegro.png" Grid.RowSpan="3" RenderTransformOrigin="0.5,0.5" Opacity="0.3" Grid.Column="2" Grid.Row="1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-13.314"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="66" Margin="54,6,0,0" VerticalAlignment="Top" Width="81" Source="imagenes/huesoNegro.png" Grid.RowSpan="3" RenderTransformOrigin="0.5,0.5" Opacity="0.3" Grid.Column="3" Grid.Row="1" Grid.ColumnSpan="2">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="11.476"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image HorizontalAlignment="Left" Height="66" Margin="93,3,0,0" VerticalAlignment="Top" Width="81" Source="imagenes/huesoNegro.png" Grid.RowSpan="3" RenderTransformOrigin="0.5,0.5" Opacity="0.3" Grid.Column="4" Grid.Row="1" Grid.ColumnSpan="2">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-13.314"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+    </Grid>
+</Window>

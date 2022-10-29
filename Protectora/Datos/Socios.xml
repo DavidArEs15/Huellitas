@@ -1,0 +1,23 @@
+<Socios>
+	<Socio NombreSocio="David" ApellidosSocio="Franco" EmailSocio="davidF@gmail.com" DNISocio ="77648569T" 
+            DomicilioSocio ="Manzanares, C/ Gaviota 34" TelefonoSocio="685789585" NombreBanco="BBVA" 
+            NumCuenta="ES56 0182 4322 56 78 8932 5637" Cuantia="500" FormaPago="Tarjeta" Enlace="https://bodysize.org/wp-content/uploads/2020/02/David-Franco-300x400.jpg"/>
+	<Socio NombreSocio="Emma" ApellidosSocio="Stone" EmailSocio="emmaS@gmail.com" DNISocio ="76547384T" 
+            DomicilioSocio ="Daimiel, C/ Olmo 25" TelefonoSocio="698728945" NombreBanco="CaixaBank" 
+            NumCuenta="ES67 2100 5443 45 56 6784 9321" Cuantia="200" FormaPago="Bizum" Enlace="https://images.mubicdn.net/images/cast_member/51060/cache-2852-1482873231/image-w856.jpg?size=800x"/>
+	<Socio NombreSocio="Tom" ApellidosSocio="Hiddleston" EmailSocio="tomH@gmail.com" DNISocio ="09865876P" 
+            DomicilioSocio ="Ciudad Real, C/ Cubo 79" TelefonoSocio="608555232" NombreBanco="LiberBank" 
+            NumCuenta="ES56 0182 2222 56 65 8932 6453" Cuantia="350" FormaPago="PayPal" Enlace="https://images.moviefit.me/p/o/4447-tom-hiddleston.jpg"/>
+	<Socio NombreSocio="Benedict" ApellidosSocio="Cumberbatch" EmailSocio="benedictC@outlook.com" DNISocio ="96098698A" 
+            DomicilioSocio ="Ciudad Real, C/ Perdidos 43" TelefonoSocio="655546862" NombreBanco="LiberBank" 
+            NumCuenta="ES34 2048 5632 45 66 3450 1452" Cuantia="350" FormaPago="Transferencia" Enlace="https://images.moviefit.me/p/o/3267-benedict-cumberbatch.jpg"/>
+	<Socio NombreSocio="Victoria" ApellidosSocio="Pedretti" EmailSocio="victoriaP@hotmail.com" DNISocio ="89485766J" 
+            DomicilioSocio ="Ciudad Real, C/ Toledo 2" TelefonoSocio="680073467" NombreBanco="Ibercaja" 
+            NumCuenta="ES22 2085 4365 00 87 9634 3452" Cuantia="200" FormaPago="PayPal" Enlace="https://images.moviefit.me/p/o/83489-victoria-pedretti.jpg"/>
+	<Socio NombreSocio="Johnny" ApellidosSocio="Depp" EmailSocio="johnnyD@yahoo.es" DNISocio ="67899896A" 
+            DomicilioSocio ="Ciudad Real, C/ Mata 33" TelefonoSocio="696875785" NombreBanco="Sabadell" 
+            NumCuenta="ES54 6575 9879 55 64 7585 8678" Cuantia="120" FormaPago="Transferencia" Enlace="https://imagenes.elpais.com/resizer/7-jR6pJkxagoLd3h1HNPvQsojoY=/414x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/UFSYVNQ7GWQUWZQWWI765EIHWA.jpg"/>
+	<Socio NombreSocio="Sarah" ApellidosSocio="Paulson" EmailSocio="sarahP@gmail.com" DNISocio ="90775867Q" 
+            DomicilioSocio ="Ciudad Real, C/Arándano 85" TelefonoSocio="567958567" NombreBanco="CaixaBank"
+            NumCuenta="ES67 2100 7564 45 56 2455 9321" Cuantia="450" FormaPago="Bizum" Enlace="http://pm1.narvii.com/6465/3fec98ff2e4eb89af1913f3cb8429c4b3a67e4d1_00.jpg"/>
+</Socios>

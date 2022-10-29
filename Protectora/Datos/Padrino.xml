@@ -1,0 +1,18 @@
+<Padrinos>
+	<Padrino Nombre="Rubén Escribano" Email="rubenE@gmail.com" DNI="77648569T" 
+            Domicilio ="Manzanares, C/ Aguila 34" Telefono="685789585" FechaNacimiento ="21/03/1998" 
+            NumCuenta="ES56 0182 4322 56 78 8932 5637" Cuantia="500" FormaPago="Tarjeta" Fecha = "12/08/2021"/>
+	<Padrino Nombre="Luisa García" Email="luisaG@gmail.com" DNI="97989798K" 
+            Domicilio ="Manzanares, C/ Aguila 78" Telefono="685789585" FechaNacimiento ="16/11/1989" 
+            NumCuenta="ES54 6575 9879 55 64 7585 8678" Cuantia="300" FormaPago="Tarjeta" Fecha = "02/10/2021"/>
+	<Padrino Nombre="Pedro Fernández" Email="pedroF@gmail.com" DNI ="76547384T" 
+            Domicilio ="Ciudad Real, C/ Sol 25" Telefono="698728945" FechaNacimiento ="08/08/1967" 
+            NumCuenta="ES67 2100 5443 45 56 6784 9321" Cuantia="200" FormaPago="Bizum" Fecha = "08/08/2021"/>
+	<Padrino Nombre="Moises Carretero" Email="moisesC@gmail.com" DNI ="90775867Q" 
+            Domicilio ="Ciudad Real, C/ Olmo 99" Telefono="68979870" FechaNacimiento ="05/07/1955" 
+            NumCuenta="ES54 6575 9879 55 64 7585 8678" Cuantia="450" FormaPago="Bizum" Fecha = "15/09/2021"/>
+	<Padrino Nombre="Iago Normando" Email="iagoN@gmail.com" DNI ="89485766J" 
+            Domicilio ="Ciudad Real, C/ Amapola 22" Telefono="6670698790" FechaNacimiento="02/09/2000" 
+            NumCuenta="ES54 6575 9879 55 64 7585 8678" Cuantia="430" FormaPago="Bizum" Fecha = "21/11/2021"/>
+	
+</Padrinos>
